@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {CustomersComponent} from "./customers/customers.component";
 import {AccountsComponent} from "./accounts/accounts.component";
 import {HomeComponent} from "./home/home.component";
+import {LoginComponent} from "./login/login.component";
 import {NewCustomerComponent} from "./new-customer/new-customer.component";
 import {CustomerAccountsComponent} from "./customer-accounts/customer-accounts.component";
 import { CustomerService } from './services/customer.service';
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path :"new-customer", component : NewCustomerComponent},
   { path :"customer-accounts/:id", component : CustomerAccountsComponent},
   { path :"category", component : CategoryComponent},
+  { path :"", redirectTo : "home", pathMatch: "full"},
+  { path :"login", component : LoginComponent}
 ];
 
 @NgModule({

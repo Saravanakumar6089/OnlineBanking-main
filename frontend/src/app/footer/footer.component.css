@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
+body {
+  font-family: "Public Sans", sans-serif !important;
+  font-size: 18px !important;
+  color: #021652 !important;
+}
+
+p {
+  cursor: default !important;
+}
+
+
+
+
+/*footer*/
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  #social-media-icons i {
+    color: white !important;
+    font-size: 26px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #social-media-icons i:hover, #social-media-icons i:active {
+    color: #2bb7da !important;
+  }
+
+  .footer-link {
+    width: 100% !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #social-media-icons i {
+    color: white !important;
+    font-size: 24px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #social-media-icons i:hover, #social-media-icons i:active {
+    color: #2bb7da !important;
+  }
+
+  .footer-link {
+    width: 100% !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 0.5rem;
+  }
+}
+.footer-link:active, .footer-link:hover {
+  color: #2bb7da !important;
+}
+
+footer {
+  background-color: #2d314d !important;
+}
+footer a {
+  text-decoration: none !important;
+}
+
+#footer-request-invite-btn {
+  background: linear-gradient(90deg, #31d35c, #2bb7da) !important;
+  font-size: 16px !important;
+  display: block;
+}
+
+#copyright-text {
+  font-size: 16px;
+  cursor: default !important;
+}
+
+/* attribution */
+.attribution {
+  background-color: #2d314d !important;
+  font-size: 11px;
+  text-align: center;
+  color: #ffffff !important;
+  border-top: 1px solid #9698a6;
+}
+
+.attribution a {
+  color: #2bb7da !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .mt-md-custom-easybank{
+    margin-top: -13% !important; 
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1549.98px) {
+  .mt-md-custom-easybank{
+    margin-top: -10% !important; 
+  }
+  #business-tagline {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .mt-md-custom-easybank{
+    margin-top: -8% !important; 
+  }
+  #business-tagline {
+    font-size: 3.8rem !important;
+  }
+}
+.request-btns:hover, .request-btns:active {
+  opacity: 0.7;
+}

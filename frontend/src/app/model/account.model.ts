@@ -1,5 +1,6 @@
 export interface AccountDetails {
   accountId:            string;
+  userId :              number;
   balance:              number;
   currentPage:          number;
   totalPages:           number;
